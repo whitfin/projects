@@ -7,7 +7,9 @@ const PACKAGES = {
   'Elixir & Hex.pm': {
     format: {
       shield: 'https://img.shields.io/hexpm/dt',
-      prefix: 'https://hex.pm/packages'
+      locate: function (name) {
+        return 'https://hex.pm/packages/' + name.replace(/-/g, '_');
+      }
     },
     packages: [
       'cachex',
@@ -31,7 +33,9 @@ const PACKAGES = {
   'Node.js & npm': {
     format: {
       shield: 'https://img.shields.io/npm/dt',
-      prefix: 'https://www.npmjs.com/package'
+      locate: function (name) {
+        return 'https://www.npmjs.com/package/' + name;
+      }
     },
     packages: [
       'argle',
@@ -77,7 +81,7 @@ Object.keys(PACKAGES).forEach(function (manager) {
     return [
       `[${name}](https://github.com/whitfin/${name})`,
       `[![${name}](${fmt.shield}/${name}.svg?style=flat-square)]` +
-      `(${fmt.prefix}/${name})`
+      `(${fmt.locate(name)})`
     ];
   });
 
