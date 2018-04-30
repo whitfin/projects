@@ -1,0 +1,9 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "General utility package for repo generation.",
+  "private": true,
+  "dependencies": {
+    "markdown-table": "1.1.2"
+  }
+}
