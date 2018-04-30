@@ -6,8 +6,10 @@ const HEADER = [['Package', 'Downloads']];
 const PACKAGES = {
   'Elixir & Hex.pm': {
     format: {
-      shield: 'https://img.shields.io/hexpm/dt',
-      locate: function (name) {
+      shield: function (name) {
+        return 'https://img.shields.io/hexpm/dt/' + name.replace(/-/g, '_');
+      },
+      hosted: function (name) {
         return 'https://hex.pm/packages/' + name.replace(/-/g, '_');
       }
     },
@@ -32,8 +34,10 @@ const PACKAGES = {
   },
   'Node.js & npm': {
     format: {
-      shield: 'https://img.shields.io/npm/dt',
-      locate: function (name) {
+      shield: function (name) {
+        return 'https://img.shields.io/npm/dt/' + name
+      },
+      hosted: function (name) {
         return 'https://www.npmjs.com/package/' + name;
       }
     },
@@ -80,8 +84,8 @@ Object.keys(PACKAGES).forEach(function (manager) {
   let map = pkg.map(function (name) {
     return [
       `[${name}](https://github.com/whitfin/${name})`,
-      `[![${name}](${fmt.shield}/${name}.svg?style=flat-square)]` +
-      `(${fmt.locate(name)})`
+      `[![${name}](${fmt.shield(name)}.svg?style=flat-square)]` +
+      `(${fmt.hosted(name)})`
     ];
   });
 
