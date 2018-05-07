@@ -63,6 +63,19 @@ const PACKAGES = {
       'redis-scanner',
       'require-under'
     ]
+  },
+  'Rust & Crates.io': {
+    format: {
+      shield: function (name) {
+        return 'https://img.shields.io/crates/d/' + name
+      },
+      hosted: function (name) {
+        return 'https://www.crates.io/crates/' + name;
+      }
+    },
+    packages: [
+      'runiq'
+    ]
   }
 };
 

@@ -47,3 +47,9 @@ This page tracks downloads for projects hosted on package managers which support
 | [rabbitmq-manager](https://github.com/whitfin/rabbitmq-manager)       | [![rabbitmq-manager](https://img.shields.io/npm/dt/rabbitmq-manager.svg?style=flat-square)](https://www.npmjs.com/package/rabbitmq-manager)          |
 | [redis-scanner](https://github.com/whitfin/redis-scanner)             | [![redis-scanner](https://img.shields.io/npm/dt/redis-scanner.svg?style=flat-square)](https://www.npmjs.com/package/redis-scanner)                   |
 | [require-under](https://github.com/whitfin/require-under)             | [![require-under](https://img.shields.io/npm/dt/require-under.svg?style=flat-square)](https://www.npmjs.com/package/require-under)                   |
+
+## Rust & Crates.io
+
+| Package                                   | Downloads                                                                                                   |
+| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [runiq](https://github.com/whitfin/runiq) | [![runiq](https://img.shields.io/crates/d/runiq.svg?style=flat-square)](https://www.crates.io/crates/runiq) |
