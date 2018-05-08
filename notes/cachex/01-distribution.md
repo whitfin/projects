@@ -46,20 +46,20 @@ In general, a lot of the functionality is supported in a distributed fashion ass
 ### Path to distribution
 
 1. Implement a Cachex router to execute hook-styled invocations.
-    a) Hash algorithm required for node sharding (without weighting, for now).
-    b) `call/1` where 1 is of the form `{ :action, args }`.
-    c) `execute/1` where 1 is of the form `{ :action, args }`.
-    d) `execute/1` becomes a dispatcher (i.e. migrate out of `cachex.ex`).
+    - Hash algorithm required for node sharding (without weighting, for now).
+    - `call/1` where 1 is of the form `{ :action, args }`.
+    - `execute/1` where 1 is of the form `{ :action, args }`.
+    - `execute/1` becomes a dispatcher (i.e. migrate out of `cachex.ex`).
 2. Main interface becomes nothing more than forwarding, which can be done via the very simple interface of `Cachex.Router.call({ :action, args })`.
-    a) This will introduce overhead due to the extra function matching.
-    b) Could introduce macros to the main API to remove this overhead.
-    c) Main interface must exist for the purpose of documentation and startup.
+    - This will introduce overhead due to the extra function matching.
+    - Could introduce macros to the main API to remove this overhead.
+    - Main interface must exist for the purpose of documentation and startup.
 3. Migrate `{ :action, args }` to a well-defined record type in the spec.
-    a) Requires co-ordination with Hooks, as they use this specification.
-    b) Perhaps Hooks adopt the syntax in a v4 or something (breaking change).
+    - Requires co-ordination with Hooks, as they use this specification.
+    - Perhaps Hooks adopt the syntax in a v4 or something (breaking change).
 4. Ensure optimizations for `nodes: [ node() ]`.
-    a) Have to skip all node sharding and dispatch.
-    b) Need a flag to enforce acting as multiple nodes (i.e. consistent state).
+    - Have to skip all node sharding and dispatch.
+    - Need a flag to enforce acting as multiple nodes (i.e. consistent state).
 
 ### Potential bonuses
 
