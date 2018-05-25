@@ -14,6 +14,7 @@ This page tracks downloads for projects hosted on package managers which support
 | [expool](https://github.com/whitfin/expool)                       | [![expool](https://img.shields.io/hexpm/dt/expool.svg?style=flat-square)](https://hex.pm/packages/expool)                                  |
 | [gen_delegate](https://github.com/whitfin/gen_delegate)           | [![gen_delegate](https://img.shields.io/hexpm/dt/gen_delegate.svg?style=flat-square)](https://hex.pm/packages/gen_delegate)                |
 | [hypex](https://github.com/whitfin/hypex)                         | [![hypex](https://img.shields.io/hexpm/dt/hypex.svg?style=flat-square)](https://hex.pm/packages/hypex)                                     |
+| [jumper](https://github.com/whitfin/jumper)                       | [![jumper](https://img.shields.io/hexpm/dt/jumper.svg?style=flat-square)](https://hex.pm/packages/jumper)                                  |
 | [luger](https://github.com/whitfin/luger)                         | [![luger](https://img.shields.io/hexpm/dt/luger.svg?style=flat-square)](https://hex.pm/packages/luger)                                     |
 | [pre_plug](https://github.com/whitfin/pre_plug)                   | [![pre_plug](https://img.shields.io/hexpm/dt/pre_plug.svg?style=flat-square)](https://hex.pm/packages/pre_plug)                            |
 | [sentix](https://github.com/whitfin/sentix)                       | [![sentix](https://img.shields.io/hexpm/dt/sentix.svg?style=flat-square)](https://hex.pm/packages/sentix)                                  |

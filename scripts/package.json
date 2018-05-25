@@ -5,5 +5,8 @@
   "private": true,
   "dependencies": {
     "markdown-table": "1.1.2"
+  },
+  "scripts": {
+    "gen-downloads": "node ./gen-downloads > ../DOWNLOADS.md"
   }
 }

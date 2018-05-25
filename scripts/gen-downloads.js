@@ -22,6 +22,7 @@ const PACKAGES = {
       'expool',
       'gen_delegate',
       'hypex',
+      'jumper',
       'luger',
       'pre_plug',
       'sentix',
