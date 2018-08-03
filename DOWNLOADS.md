@@ -51,6 +51,7 @@ This page tracks downloads for projects hosted on package managers which support
 
 ## Rust & Crates.io
 
-| Package                                   | Downloads                                                                                                   |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [runiq](https://github.com/whitfin/runiq) | [![runiq](https://img.shields.io/crates/d/runiq.svg?style=flat-square)](https://www.crates.io/crates/runiq) |
+| Package                                       | Downloads                                                                                                         |
+| --------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [runiq](https://github.com/whitfin/runiq)     | [![runiq](https://img.shields.io/crates/d/runiq.svg?style=flat-square)](https://www.crates.io/crates/runiq)       |
+| [s3-meta](https://github.com/whitfin/s3-meta) | [![s3-meta](https://img.shields.io/crates/d/s3-meta.svg?style=flat-square)](https://www.crates.io/crates/s3-meta) |

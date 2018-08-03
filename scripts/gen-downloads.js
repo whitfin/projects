@@ -75,7 +75,8 @@ const PACKAGES = {
       }
     },
     packages: [
-      'runiq'
+      'runiq',
+      's3-meta'
     ]
   }
 };
