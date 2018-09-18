@@ -75,6 +75,7 @@ const PACKAGES = {
       }
     },
     packages: [
+      'efflux',
       'runiq',
       's3-meta'
     ]
