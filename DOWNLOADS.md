@@ -13,7 +13,7 @@ This page tracks downloads for projects hosted on package managers which support
 | [eternal](https://github.com/whitfin/eternal)                     | [![eternal](https://img.shields.io/hexpm/dt/eternal.svg?style=flat-square)](https://hex.pm/packages/eternal)                               |
 | [expool](https://github.com/whitfin/expool)                       | [![expool](https://img.shields.io/hexpm/dt/expool.svg?style=flat-square)](https://hex.pm/packages/expool)                                  |
 | [gen_delegate](https://github.com/whitfin/gen_delegate)           | [![gen_delegate](https://img.shields.io/hexpm/dt/gen_delegate.svg?style=flat-square)](https://hex.pm/packages/gen_delegate)                |
-| [global_lazy](https://github.com/whitfin/global_lazy)             | [![global_lazy](https://img.shields.io/hexpm/dt/global_lazy.svg?style=flat-square)](https://hex.pm/packages/global_lazy)                   |
+| [global-lazy](https://github.com/whitfin/global-lazy)             | [![global-lazy](https://img.shields.io/hexpm/dt/global_lazy.svg?style=flat-square)](https://hex.pm/packages/global_lazy)                   |
 | [hypex](https://github.com/whitfin/hypex)                         | [![hypex](https://img.shields.io/hexpm/dt/hypex.svg?style=flat-square)](https://hex.pm/packages/hypex)                                     |
 | [jumper](https://github.com/whitfin/jumper)                       | [![jumper](https://img.shields.io/hexpm/dt/jumper.svg?style=flat-square)](https://hex.pm/packages/jumper)                                  |
 | [local-cluster](https://github.com/whitfin/local-cluster)         | [![local-cluster](https://img.shields.io/hexpm/dt/local_cluster.svg?style=flat-square)](https://hex.pm/packages/local_cluster)             |
