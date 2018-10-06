@@ -23,6 +23,7 @@ const PACKAGES = {
       'gen_delegate',
       'hypex',
       'jumper',
+      'local-cluster',
       'luger',
       'pre_plug',
       'sentix',
