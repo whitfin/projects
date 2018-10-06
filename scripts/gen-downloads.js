@@ -21,6 +21,7 @@ const PACKAGES = {
       'eternal',
       'expool',
       'gen_delegate',
+      'global_lazy',
       'hypex',
       'jumper',
       'local-cluster',
