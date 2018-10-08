@@ -2,7 +2,7 @@
 
 This page tracks downloads for projects hosted on package managers which support download counting. Not of any real use other than guaging where focus should lie on open source projects. There will probably be some omission for those things I have already decided against maintaining.
 
-## Elixir & Hex.pm
+## Elixir/Erlang & Hex.pm
 
 | Package                                                           | Downloads                                                                                                                                  |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -13,6 +13,7 @@ This page tracks downloads for projects hosted on package managers which support
 | [eternal](https://github.com/whitfin/eternal)                     | [![eternal](https://img.shields.io/hexpm/dt/eternal.svg?style=flat-square)](https://hex.pm/packages/eternal)                               |
 | [expool](https://github.com/whitfin/expool)                       | [![expool](https://img.shields.io/hexpm/dt/expool.svg?style=flat-square)](https://hex.pm/packages/expool)                                  |
 | [gen_delegate](https://github.com/whitfin/gen_delegate)           | [![gen_delegate](https://img.shields.io/hexpm/dt/gen_delegate.svg?style=flat-square)](https://hex.pm/packages/gen_delegate)                |
+| [global-flags](https://github.com/whitfin/global-flags)           | [![global-flags](https://img.shields.io/hexpm/dt/global_flags.svg?style=flat-square)](https://hex.pm/packages/global_flags)                |
 | [global-lazy](https://github.com/whitfin/global-lazy)             | [![global-lazy](https://img.shields.io/hexpm/dt/global_lazy.svg?style=flat-square)](https://hex.pm/packages/global_lazy)                   |
 | [hypex](https://github.com/whitfin/hypex)                         | [![hypex](https://img.shields.io/hexpm/dt/hypex.svg?style=flat-square)](https://hex.pm/packages/hypex)                                     |
 | [jumper](https://github.com/whitfin/jumper)                       | [![jumper](https://img.shields.io/hexpm/dt/jumper.svg?style=flat-square)](https://hex.pm/packages/jumper)                                  |

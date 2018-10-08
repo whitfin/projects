@@ -4,7 +4,7 @@ const generate = require('markdown-table');
 const HEADER = [['Package', 'Downloads']];
 
 const PACKAGES = {
-  'Elixir & Hex.pm': {
+  'Elixir/Erlang & Hex.pm': {
     format: {
       shield: function (name) {
         return 'https://img.shields.io/hexpm/dt/' + name.replace(/-/g, '_');
@@ -21,6 +21,7 @@ const PACKAGES = {
       'eternal',
       'expool',
       'gen_delegate',
+      'global-flags',
       'global-lazy',
       'hypex',
       'jumper',
